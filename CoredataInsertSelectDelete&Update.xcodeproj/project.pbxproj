@@ -103,6 +103,7 @@
 				3AC93FCD20F74D6800179E97 /* ViewController.swift */,
 				3AC93FCF20F74D6800179E97 /* Main.storyboard */,
 				3AC93FD520F74D6900179E97 /* Assets.xcassets */,
+				3AC9400020F74EEB00179E97 /* CoreData Classes */,
 				3AC93FD720F74D6900179E97 /* LaunchScreen.storyboard */,
 				3AC93FDA20F74D6900179E97 /* Info.plist */,
 				3AC93FD220F74D6800179E97 /* CoredataInsertSelectDelete_Update.xcdatamodeld */,
@@ -126,6 +127,13 @@
 				3AC93FF020F74D6900179E97 /* Info.plist */,
 			);
 			path = "CoredataInsertSelectDelete&UpdateUITests";
+			sourceTree = "<group>";
+		};
+		3AC9400020F74EEB00179E97 /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "CoreData Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
