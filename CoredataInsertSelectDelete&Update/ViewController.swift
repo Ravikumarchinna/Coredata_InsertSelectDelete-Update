@@ -95,12 +95,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         let managedContext = self.managedObject12()
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
-        fetchRequest.predicate = NSPredicate(format: "name = %@", "ntr")
+        fetchRequest.predicate = NSPredicate(format: "name = %@", "Ravi")
         fetchRequest.returnsObjectsAsFaults = false
         do {
             let objects = try managedContext.fetch(fetchRequest)
             for object in objects as! [NSManagedObject] {
-                object.setValue("Jr NTR", forKey: "name")
+                object.setValue("ravi NTR", forKey: "name")
             }
             try managedContext.save()
         } catch let error as NSError {
